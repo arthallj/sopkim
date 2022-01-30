@@ -10,7 +10,8 @@
     display:flex;
     flex-direction: column;
     flex: 1 1 400px;
-    padding: 5%;    
+    padding: 5%;
+    margin: 10px;    
 }
 .location-container-sub{
     width:  100%;
@@ -27,8 +28,7 @@
 
 .map-image{
     width: 100%;
-    margin: 10px;
-    min-width: 500px;
+    min-width: 280px;
     flex: 1 1 100px;    
     content:url(../img/map.png);
 }
