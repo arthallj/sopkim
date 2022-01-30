@@ -10,7 +10,7 @@ class Footer extends Component {
       <footer id='footer'>
         <div className="footer-container">
           <div className="footer-text-title">문의 하기</div>
-          <div className="footer-text1"><li>staff@arthallj.com</li><li>010-4947-7748</li></div>
+          <div className="footer-text1"><li><a href="mailto:staff@arthallj.com">staff@arthallj.com</a></li><li><a href="tel:010-4947-7748">010-4947-7748</a></li></div>
         </div>
         <div className="footer-container-sns">
           <div className="footer-sns-btn">
