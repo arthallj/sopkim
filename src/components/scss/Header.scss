@@ -17,12 +17,14 @@
 }
 
 .header-logo-container{
-    text-align: center;
+    display: flex;
+    justify-content: center;
 }
 .header-logo{
     content:url(../img/logo-w.png);
-    width: 300px;
     margin-top: 40px;
+    width: 10%;
+    flex: 0 1 300px;
 }
 
 .intro-features{
