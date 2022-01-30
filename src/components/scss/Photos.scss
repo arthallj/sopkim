@@ -1,0 +1,55 @@
+#photos {
+    background-color: #302729;
+    padding: 5%;
+}
+
+.photo-container{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+[class*="img"]{
+    width: 10%;
+    flex: 1 1 300px;
+    padding: 10px;
+}
+.img1{
+     content:url(../img/IMG_3453.jpg);
+}
+.img2{
+     content:url(../img/IMG_3444.jpg);
+}
+.img3{
+     content:url(../img/IMG_3484.jpg);
+}
+.img4{
+    content:url(../img/IMG_3480.jpg);
+}
+.img5{
+    content:url(../img/IMG_3559.jpg);
+}
+.img6{
+    content:url(../img/IMG_3449.jpg);
+}
+.img7{
+    content:url(../img/IMG_3459.jpg);
+}
+.img8{
+    content:url(../img/IMG_3458.jpg);
+}
+.img9{
+    content:url(../img/IMG_3465.jpg);
+}
+.img10{
+    content:url(../img/IMG_3578.jpg);
+}
+.img11{
+    content:url(../img/IMG_3576.jpg);
+}
+.img12{
+    content:url(../img/IMG_3481.jpg);
+}
+.img13{
+    content:url(../img/IMG_3561.jpg);
+}
