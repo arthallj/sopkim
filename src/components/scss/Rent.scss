@@ -23,6 +23,8 @@
     background-color: #362a2e;
     margin: 10px;
     padding: 5%;
+    display: flex;
+    flex-direction: column;
 }
 
 .rent-card-container-sub.max {
@@ -40,25 +42,22 @@
     line-height: 2em;
 }
 
-.rent-logo1{
-    content:url(../img/service1.png);
+[class*="rent-logo"]{
     width: 80px;
     margin-bottom: 5%;
+}
+
+.rent-logo1{
+    content:url(../img/service1.png);
 }
 .rent-logo2{
     content:url(../img/service2.png);
-    width: 80px;
-    margin-bottom: 5%;
 }
 .rent-logo3{
     content:url(../img/service3.png);
-    width: 80px;
-    margin-bottom: 5%;
 }
 .rent-logo4{
     content:url(../img/service4.png);
-    width: 80px;
-    margin-bottom: 5%;
 }
 
 .rent-text-title{

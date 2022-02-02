@@ -9,15 +9,15 @@ class Location extends Component {
         return (
             <div id="location">
                 <div className="location-container">
-                    <img className="map-image"></img>
+                    <img className="map-image" alt="map"></img>
                     <div className="location-container-sub">
                         <div className="location-map-btn-container">
-                            <a href="http://naver.me/F5u3d1Oe" target="_blank" className="map-btn" role="button">
+                            <a href="http://naver.me/F5u3d1Oe" target="_blank" className="map-btn" role="button" rel="noreferrer">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} /> 네이버지도
                             </a>
                         </div>
                         <div className="location-map-btn-container">
-                            <a href="http://kko.to/B7atex_0p" target="_blank" className="map-btn" role="button">
+                            <a href="http://kko.to/B7atex_0p" target="_blank" className="map-btn" role="button" rel="noreferrer">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} /> 카카오지도
                             </a>
                         </div>

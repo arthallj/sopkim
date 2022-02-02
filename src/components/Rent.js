@@ -8,24 +8,24 @@ class Rent extends Component {
                 <div className="rent-card-container">
                     <div className="rent-card-container-sub">
                         <div className="rent-card-container-child">
-                            <img className="rent-logo1"></img>
+                            <img className="rent-logo1" alt="logo1"></img>
                             <div className="rent-card-title">실시간 예약</div>
                             <div className="rent-card-contents">실시간 예약을 통해 원하는 날짜와 시간을 직접 선택하여 대관 일정을 잡을 수 있습니다.  원활한 연락을 위해 반드시 당일 이용하시는 분께서 직접 예약 부탁드립니다.</div>
                         </div>
                         <div className="rent-card-container-child">
-                            <img className="rent-logo2"></img>
+                            <img className="rent-logo2" alt="logo2"></img>
                             <div className="rent-card-title">무인 아트홀</div>
                             <div className="rent-card-contents">상주 운영 인원이 없습니다. 이용안내를 숙지하시고 이용하시길 부탁드립니다. 프라이빗한 공간을 원하시는 분에게 추천드립니다.</div>
                         </div>
                     </div>
                     <div className="rent-card-container-sub">
                         <div className="rent-card-container-child">
-                            <img className="rent-logo3"></img>
+                            <img className="rent-logo3" alt="logo3"></img>
                             <div className="rent-card-title">시간제 운영</div>
                             <div className="rent-card-contents">30분 단위 시간제로 운영됩니다. 미리 입실하거나 퇴실 시간이 늦어질 경우 추가 요금이 발생합니다.</div>
                         </div>
                         <div className="rent-card-container-child">
-                            <img className="rent-logo4"></img>
+                            <img className="rent-logo4" alt="logo4"></img>
                             <div className="rent-card-title">음식물 반입 금지</div>
                             <div className="rent-card-contents">쾌적한 연주공간을 공유하기 위해 음식물 반입은 절대 금지하고 있습니다. 양해 부탁드립니다.</div>
                         </div>
@@ -79,7 +79,7 @@ class Rent extends Component {
                         </ul>
                     </div>
                     <div className="rent-book-btn">
-                        <a href="http://booking.arthallj.com/" target="_blank" rel="nofollow" className="rent-btn" role="button">예약하기</a>
+                        <a href="http://booking.arthallj.com/" target="_blank" className="rent-btn" role="button" rel="noreferrer">예약하기</a>
                     </div>
                 </div>
             </div>
