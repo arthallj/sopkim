@@ -1,5 +1,5 @@
 #rent {
-    background-color: #302729;
+    background-color: #011930;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,96 +9,40 @@
 .rent-card-container{
     display:flex;
     flex-direction: column;
-    flex: 1 1 300px;
-    padding: 5%;    
+    flex: 1 1 400px;
+    margin: 2%;    
+    background-color: #031426;
+    align-items: center;
 }
-.rent-card-container-sub{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.rent-card-container-child{
-    flex: 1 1 200px;
-    background-color: #362a2e;
-    margin: 10px;
-    padding: 5%;
-    display: flex;
-    flex-direction: column;
-}
-
-.rent-card-container-sub.max {
+.rent-card-container.max {
     height: max-content;
-  }
-.rent-card-title{
-    font-size: x-large;
-    font-weight: bold;
-    color: ivory;
-    line-height: 2em;
+}
+.rent-card-logo-container{
+    display: flex;
+    height: 80px;
+    margin: 20px;
 }
 .rent-card-contents{
     font-size: medium;
     color: rgb(180, 180, 180);
     line-height: 2em;
+    padding: 8%;
 }
 
 [class*="rent-logo"]{
-    width: 80px;
-    margin-bottom: 5%;
+    width: 200px;
+    object-fit: contain;
 }
 
 .rent-logo1{
-    content:url(../img/service1.png);
+    content:url(../img/logo1.png);
 }
 .rent-logo2{
-    content:url(../img/service2.png);
+    content:url(../img/logo2.png);
 }
 .rent-logo3{
-    content:url(../img/service3.png);
+    content:url(../img/logo3.png);
 }
 .rent-logo4{
-    content:url(../img/service4.png);
-}
-
-.rent-text-title{
-    font-size: xx-large;
-    font-weight: bold;
-    color: ivory;
-    line-height: 2em;
-    margin-top: 5%;
-    padding-top: 5%;
-}
-.rent-text1{
-    font-size: x-large;
-    color: rgb(180, 180, 180);
-    line-height: 2em;
-}
-
-.rent-text2{
-    font-size: large;
-    color: rgb(180, 180, 180);
-    line-height: 2em;
-}
-
-.rent-book-btn{
-    text-align: center;
-}
-.rent-btn{
-    margin-top: 1em;
-    margin-bottom: 1em;
-    background-color: rgba(0,0,0,0);
-    border-style: solid;
-    border-width: 2px 2px 2px 2px;
-    border-color: #F3DA7B;
-    border-radius: 50px 50px 50px 50px;
-    padding: 20px 38px 20px 38px;
-    color: ivory;
-    display: inline-block;
-    line-height: 1;
-    font-size: large;
-    text-decoration: none;
-}
-
-.rent-btn:hover {
-    background-color: rgb(226, 148, 148);
+    content:url(../img/logo4.png);
 }

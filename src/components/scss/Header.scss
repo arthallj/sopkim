@@ -1,7 +1,6 @@
 #home {
-    height: 90vh;
     height: 100%;
-    background: url(../img/main.jpg) no-repeat center center; 
+    background-color: #011930;
     -webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -12,8 +11,7 @@
 
 .header-text-container{
     height: 100%;
-    margin: 10% 10% 10% 10%;
-    background-color: rgba($color: #000000, $alpha: 0.6);
+    margin: 20% 10% 20% 10%;
 }
 
 .header-logo-container{
@@ -21,16 +19,7 @@
     justify-content: center;
 }
 .header-logo{
-    content:url(../img/logo-w.png);
-    margin-top: 40px;
+    content:url(../img/logo.png);
     width: 10%;
-    flex: 0 1 300px;
-}
-
-.intro-features{
-    font-size: medium;
-    color: rgb(180, 180, 180);
-    line-height: 2em;
-    text-align: left;
-    padding: 10%;
+    flex: 0 1 500px;
 }
