@@ -1,6 +1,6 @@
 {
-  "short_name": "제이센틱",
-  "name": "제이센틱 - 정통 클래식 음악",
+  "short_name": "Minjung Kim",
+  "name": "Soprano Minjung Kim - 소프라노 김민정",
   "icons": [
     {
       "src": "favicon.ico",
@@ -8,13 +8,13 @@
       "type": "image/x-icon"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
+      "src": "logo192.jpeg",
+      "type": "image/jpg",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "logo512.jpeg",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],

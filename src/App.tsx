@@ -1,13 +1,14 @@
 import './App.scss';
 import Header from './components/Header';
-import Rent from './components/Rent';
 import Footer from './components/Footer';
+import Photos from './components/Photos';
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Rent />
+      <div className="spacer-container"></div>
+      <Photos />
       <Footer />
     </div>
   );

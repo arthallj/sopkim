@@ -1,5 +1,5 @@
 html {
-	background-color: #302729;
+	background-color: #000000;
 	-webkit-font-smoothing: antialiased;
 	margin: 0;
 	padding: 0;
@@ -9,4 +9,8 @@ html {
 }
 
 @media (min-width: 576px) {
+}
+
+.spacer-container{
+    height: 30vh;
 }
